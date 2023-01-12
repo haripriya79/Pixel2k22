@@ -1,0 +1,79 @@
+.wrapper {
+    position: relative;
+    max-width: fit-content;
+    min-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper form .input-box {
+    height: 52px;
+    margin: 18px 0;
+}
+
+form .input-box input,
+select {
+    height: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+    border-color: #ebb52f;
+}
+
+form .policy {
+    display: flex;
+    align-items: center;
+}
+
+form .field {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+form .text .field {
+    color: #333;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+form .text .field a {
+    color: #ebb52f;
+    text-decoration: none;
+}
+
+.w-form-done {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    background-color: #a093ff;
+}
+
+.w-form-fail {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #de3b3b;
+}
+/* form .text .field a:hover {
+    text-decoration: underline;
+    width: 60px;
+} */
